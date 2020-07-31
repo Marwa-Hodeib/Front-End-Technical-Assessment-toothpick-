@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Header';
+import Header from './Components/Header/Header';
+import HowItWorks from './Components/HowItWorks/HowItWorks';
+import About from './Components/About/About';
+import Home from './Components/Home/Home';
 
-
-class App extends Component {
-  render() {
-  return (
+const App = () => (
+  
     <div className="App">
-      <Navbar />
-        <main style={{marginTop: '200px'}}> 
-          <p>Page Content</p>
-        </main>
+      <Header />
+      <Home />
+      <HowItWorks />
+      <About />
     </div>
-  );
-  }
-}
+  
+)
+
 
 export default App;
