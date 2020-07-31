@@ -1,0 +1,56 @@
+.navbar 
+{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    height: 50px;
+}
+
+.navigation
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.main-logo
+{
+   margin-left: 5rem;
+   margin-top: 5rem;
+  
+
+
+}
+
+.navigation-items a
+{
+    text-decoration: none;
+}
+
+
+.navigation-items a:hover,
+.navigation-items a:active
+{
+    color: turquoise;
+}
+
+.navigation-items ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.space-between
+{
+    flex: 1;
+}
+
+.navigation-items li
+{
+    padding: 0 1.5rem;
+    
+}
