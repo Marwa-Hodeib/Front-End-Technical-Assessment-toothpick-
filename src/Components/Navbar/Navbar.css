@@ -1,4 +1,4 @@
-.navbar 
+.header-wrapper
 {
     top: 0px;
     left: 0px;
@@ -6,16 +6,13 @@
     width: 100%;
     background: transparent;
     height: 50px;
-}
-
-.navigation
-{
     display: flex;
     align-items: center;
-
 }
 
-.main-logo
+
+
+.header-logo
 {
    margin-left: 5rem;
    margin-top: 5rem;
