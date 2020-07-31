@@ -3,7 +3,7 @@ import './HowItWorks.css';
 
 
 const HowItWorks = () => (
-   <div>I am HowItWorks</div>
+   <div id='how'>I am HowItWorks</div>
 );
 
 export default HowItWorks;
