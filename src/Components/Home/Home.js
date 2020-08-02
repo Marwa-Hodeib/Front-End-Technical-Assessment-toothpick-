@@ -11,7 +11,10 @@ const settings = {
   adaptiveHeight: true,
   className: "slider variable-width",
   centerMode: true,
-  Description: false,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  
 };
 
 const Home = () => (
@@ -36,14 +39,6 @@ const Home = () => (
       </div>
       <div className='home-wrapper-image'>
         <Slider {...settings}>
-          <div className='slide'>
-            <img
-              className='home-mobile-image'
-              src='/Images/img_hero_1.png'
-              alt='app store'
-            />
-          </div>
-
           <div className='slide'>
             <img
               className='home-mobile-image'

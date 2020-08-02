@@ -1,6 +1,6 @@
 -Before Coding-
 
-* Deciding on using React js instead of Vue js, because I never used Vue js
+* Deciding on using React js instead of Vue js, because I never used Vue js.
 
 * Drawing the page given on a piece of paper to devide components.
 
@@ -9,9 +9,11 @@
 
 -During Coding-
 
-* Used flex box, for compatibility reasons although I usually use Grid. http://flexbox.help/ this website helped a lot.
+* Added border-box to the whole page, to help me size components much easier.
 
-* Instaled a slider "React Slick".
+* Used flex box, for compatibility reasons although I usually use Grid. http://flexbox.help/ this website   helped a lot.
+
+* Instaled a slider: "React Slick".
 
 * 
 

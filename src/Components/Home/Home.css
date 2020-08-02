@@ -7,16 +7,24 @@
   }
   .home-background {
     position: absolute;
-    width: 70%;
-    left: 40%;
+    width: 9%;
+    left: 25%;
     bottom: 20%;
     z-index: -1;
+
   }
   
   .home-app-image {
    
   }
   
+  .home-title{
+      color: #1CDBAF;
+      font-size: 30px;
+      font-weight: 500;
+  }
+
+
   .home-wrapper .main-container {
     display: flex;
     flex-direction: row;
