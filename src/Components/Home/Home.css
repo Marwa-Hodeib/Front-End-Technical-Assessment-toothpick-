@@ -60,12 +60,10 @@
   scroll-behavior: smooth;
 }
 
-/*@media all and (max-width: 1650px) {
-  .home-background {
-    position: absolute;
-    width: 100%;
-    left: 20%;
-    bottom: 20%;
-    z-index: -1;
+@media all and (max-width: 650px) {
+  
+  .home-wrapper-image {
+    display: none;
   }
-}*/
+  
+}

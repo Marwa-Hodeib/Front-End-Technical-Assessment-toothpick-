@@ -6,6 +6,8 @@
 
 * Figuring out the aproximate sizes of components.
 
+* Wanted to work on responsiveness from mobile to web(had no time, so I just did this with the cards :) )
+
 
 -During Coding-
 
@@ -19,12 +21,8 @@
 
 
 
-
-
-
-
 -Work in the future-
 
 * Creat it again using Vue js.
-*  
+
 
