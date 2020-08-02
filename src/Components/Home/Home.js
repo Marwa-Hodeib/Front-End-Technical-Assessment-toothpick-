@@ -37,7 +37,7 @@ const Home = () => (
         />
       </div>
       <div className="home-wrapper-image">
-        <Slider {...settings}>
+        <Slider {...settings} >
           <div className="slide">
             <img
               className="home-mobile-image"

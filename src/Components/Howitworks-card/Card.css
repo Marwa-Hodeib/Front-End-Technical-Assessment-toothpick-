@@ -4,7 +4,8 @@
     position: relative;
     width: 225px;
     /*border: solid red 2px;*/
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(66, 66, 66, 0.19);
+    background-color: white;
 
   }
 
@@ -49,5 +50,5 @@
   
 
   @media all and (max-width: 1650px) {
-    
+
   }

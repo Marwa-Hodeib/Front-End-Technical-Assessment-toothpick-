@@ -1,66 +1,71 @@
 .home-wrapper {
-   
-    /* display: flex; */
-    position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+  /* display: flex; */
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.home-background {
+ /* position: absolute;
+  width: 9%;
+  left: 25%;
+  bottom: 20%;
+  z-index: -1;*/
+  position: absolute;
+  width: 100%;
+  right: -294px;
+  bottom: 313px;
+  z-index: -1;
+  max-width: 100%;
+  height: auto;
+}
+
+.home-app-image {
+  max-width: 100%;
+  width: 100px;
+  height: 30px;
+}
+
+.home-title {
+  color: #1cdbaf;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.home-wrapper .main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.home-wrapper-text {
+  width: 40%;
+}
+.home-wrapper-image {
+  width: 60%;
+}
+
+.home-mobile-image {
+  min-height: 700px;
+  width: auto !important;
+  margin: auto;
+}
+
+.slide {
+  text-align: center;
+}
+
+#home {
+  scroll-behavior: smooth;
+}
+
+/*@media all and (max-width: 1650px) {
   .home-background {
     position: absolute;
-    width: 9%;
-    left: 25%;
+    width: 100%;
+    left: 20%;
     bottom: 20%;
     z-index: -1;
-
   }
-  
-  .home-app-image {
-   
-  }
-  
-  .home-title{
-      color: #1CDBAF;
-      font-size: 30px;
-      font-weight: 500;
-  }
-
-
-  .home-wrapper .main-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-  }
-  .home-wrapper-text {
-    width: 40%;
-  }
-  .home-wrapper-image {
-    width: 60%;
-  }
-  
-  .home-mobile-image {
-    min-height: 700px;
-    width: auto !important;
-    margin: auto;
-  }
-  
-  .slide {
-    text-align: center;
-  }
-
-  #home {
-    scroll-behavior: smooth;
-  }
-  
-  @media all and (max-width: 1650px) {
-    .home-background {
-      position: absolute;
-      width: 100%;
-      left: 20%;
-      bottom: 20%;
-      z-index: -1;
-    }
-  }
-  
+}*/

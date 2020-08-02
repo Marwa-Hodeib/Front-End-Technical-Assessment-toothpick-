@@ -7,8 +7,14 @@ const HowItWorks = () => (
     <div className="container">
       <div className="how-text">
         <h3>How It Works</h3>
-        <p>It's quite easy</p>
+        <p>It's quite easy and simple</p>
       </div>
+
+      <img
+        src="/Images/img_left_graphic.svg"
+        className="how-background"
+        alt="circle graphic"
+      />
 
       <div className="how-cards">
         <Card

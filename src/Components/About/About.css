@@ -21,3 +21,10 @@
     color: #1CDBAF;
     font-weight: 500;
 }
+
+
+@media all and (max-width: 650px){
+.about-text p{
+    text-align: start;
+}
+}
