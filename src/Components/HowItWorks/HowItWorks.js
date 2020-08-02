@@ -13,23 +13,23 @@ const HowItWorks = () => (
       <div className="how-cards">
         <Card
           image="/Images/icon-one-80.svg"
-          title="dfhjbsdfhhf"
-          paragraph="jbfbjdfhfh"
+          title="Browse and Shop"
+          paragraph="From thousands of items and brands"
           alt="icon 1"
         />
 
         <Card
           image="/Images/icon-two-80.svg"
-          title="dfhjbsdfhhf"
-          paragraph="jbfbjdfhfh"
-          alt="icon 1"
+          title="Pick a time"
+          paragraph="At your convenience"
+          alt="icon 2"
         />
 
         <Card
-          image="/Images/icon-two-80.svg"
-          title="dfhjbsdfhhf"
-          paragraph="jbfbjdfhfh"
-          alt="icon 1"
+          image="/Images/icon-three-80.svg"
+          title="Receive your order"
+          paragraph="Directly to your doorstep"
+          alt="icon 3"
         />
       </div>
     </div>

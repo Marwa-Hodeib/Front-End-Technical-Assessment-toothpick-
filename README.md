@@ -15,5 +15,7 @@
 
 * Instaled a slider: "React Slick".
 
-* 
+* Created reusable components (the cards in How it Works).
+
+
 

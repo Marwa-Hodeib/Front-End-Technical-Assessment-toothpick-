@@ -49,6 +49,10 @@
   .slide {
     text-align: center;
   }
+
+  #home {
+    scroll-behavior: smooth;
+  }
   
   @media all and (max-width: 1650px) {
     .home-background {

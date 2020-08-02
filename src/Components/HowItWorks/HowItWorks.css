@@ -1,23 +1,29 @@
-    .container{
-        max-width: 1000px;
-        margin: auto;
-        
-    }
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
 
-  .how-cards{
+.how-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-text {
+  text-align: center;
+  padding: 50px;
+}
+
+.how-text h3 {
+  margin: 0;
+}
+
+.how-text p {
+  margin: 0;
+}
+
+@media all and (max-width: 1650px) {
+  .how-cards {
     display: flex;
-    justify-content: space-between;
+   flex-direction: column;
   }
-
-  .how-text{
-      text-align: center;
-      padding: 50px;
-  }
-
-  .how-text h3{
-      margin: 0;
-  }
-
-  .how-text p{
-      margin: 0;
-  }
+}
